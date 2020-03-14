@@ -4,7 +4,7 @@ import { Text, StyleSheet, View, Button } from 'react-native';
 const HomeScreen = ({ navigation }) => {
   return (
     <View>
-      <Text style={styles.text}>Hi There!!</Text>
+      <Text style={styles.text}>Choose a Demo!!</Text>
       <Button
         title="Go to Components Demo"
         onPress={() => navigation.navigate('Components')}
@@ -16,6 +16,18 @@ const HomeScreen = ({ navigation }) => {
       <Button
         title="Go to Images Demo"
         onPress={() => navigation.navigate('Image')}
+      />
+      <Button
+        title="Go to Counter Demo"
+        onPress={() => navigation.navigate('Counter')}
+      />
+      <Button
+        title="Go to Color Demo"
+        onPress={() => navigation.navigate('Color')}
+      />
+      <Button
+        title="Go to Square Demo"
+        onPress={() => navigation.navigate('Square')}
       />
     </View>
   );
