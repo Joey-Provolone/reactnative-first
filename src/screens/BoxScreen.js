@@ -25,10 +25,10 @@ const styles = StyleSheet.create({
     height: 70,
     width: 70,
     fontSize: 18,
-    backgroundColor: 'green',
-    position: 'absolute',
-    top: 70,
-    left: 120
+    backgroundColor: 'green'
+    // position: 'absolute',
+    // top: 70,
+    // left: 120
   },
   textThreeStyle: {
     height: 70,
